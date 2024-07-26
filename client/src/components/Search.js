@@ -12,6 +12,7 @@ export const Search = () => {
         setInput("");
         setBestMatch([]);
     }   
+    // new branch
     const UpdateBestMatch = () => {
         setBestMatch(mockSearchResult.result);
     }
