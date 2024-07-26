@@ -11,7 +11,7 @@ export const Search = () => {
     const clear = () => {
         setInput("");
         setBestMatch([]);
-    }
+    }   
     const UpdateBestMatch = () => {
         setBestMatch(mockSearchResult.result);
     }
